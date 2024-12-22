@@ -1,5 +1,5 @@
-# D-FLIPDLOP-NEGEDGE
-
+# Exp No : 8 D-FLIPDLOP-NEGEDGE
+## Date : 14/11/2024
 **AIM:**
 
 To implement  D flipflop using verilog and validating their functionality using their functional tables
@@ -46,41 +46,26 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 Developed by:Atchaya B
 
 RegisterNumber:24900268
-
+```
 module dflip (d, clk, rst, q);
-
   input d, clk, rst;
-  
   output reg q;
-
   always @(negedge clk or posedge rst) begin
-  
     if (rst)
-    
       q <= 0; // Reset the flip-flop
-      
     else
-    
       q <= d; // D input is passed to Q on the negative clock edge
-      
   end
-  
 endmodule
-
-*/
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-
 ![Screenshot 2024-12-12 184208](https://github.com/user-attachments/assets/0ff7c30f-2a21-4a5c-a26b-b44f7414cb5b)
-
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-
 ![Screenshot 2024-12-12 184406](https://github.com/user-attachments/assets/1f5fb2f0-49c3-4f59-b729-1cedbb88826d)
-
-
 
 **RESULTS**
 
