@@ -67,6 +67,4 @@ endmodule
 
 ![Screenshot 2024-12-12 184406](https://github.com/user-attachments/assets/1f5fb2f0-49c3-4f59-b729-1cedbb88826d)
 
-**RESULTS**
-
-Thus the program to implement a D flipflop using vrilog and validating their functionality using their functional tables.
+**RESULTS** Thus the program to implement a D flipflop using vrilog and validating their functionality using their functional tables.
